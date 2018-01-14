@@ -1,0 +1,709 @@
+[
+ {
+   "NUMNUTS": 0,
+   "NUTS": "CZ0",
+   "NAZEVNUTS": "Česká republika",
+   "KODCIS": 97,
+   "CHODNOTA": 19
+ },
+ {
+   "NUMNUTS": 1000,
+   "NUTS": "CZ01",
+   "NAZEVNUTS": "Praha",
+   "KODCIS": 99,
+   "CHODNOTA": 213
+ },
+ {
+   "NUMNUTS": 1100,
+   "NUTS": "CZ010",
+   "NAZEVNUTS": "Hlavní město Praha",
+   "KODCIS": 100,
+   "CHODNOTA": 3018
+ },
+ {
+   "NUMNUTS": 1199,
+   "NUTS": "CZ0100",
+   "NAZEVNUTS": "Praha",
+   "KODCIS": 101,
+   "CHODNOTA": 40924
+ },
+ {
+   "NUMNUTS": 2000,
+   "NUTS": "CZ02",
+   "NAZEVNUTS": "Střední Čechy",
+   "KODCIS": 99,
+   "CHODNOTA": 221
+ },
+ {
+   "NUMNUTS": 2100,
+   "NUTS": "CZ020",
+   "NAZEVNUTS": "Středočeský kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3026
+ },
+ {
+   "NUMNUTS": 2101,
+   "NUTS": "CZ0201",
+   "NAZEVNUTS": "Benešov",
+   "KODCIS": 101,
+   "CHODNOTA": 40169
+ },
+ {
+   "NUMNUTS": 2102,
+   "NUTS": "CZ0202",
+   "NAZEVNUTS": "Beroun",
+   "KODCIS": 101,
+   "CHODNOTA": 40177
+ },
+ {
+   "NUMNUTS": 2103,
+   "NUTS": "CZ0203",
+   "NAZEVNUTS": "Kladno",
+   "KODCIS": 101,
+   "CHODNOTA": 40185
+ },
+ {
+   "NUMNUTS": 2104,
+   "NUTS": "CZ0204",
+   "NAZEVNUTS": "Kolín",
+   "KODCIS": 101,
+   "CHODNOTA": 40193
+ },
+ {
+   "NUMNUTS": 2105,
+   "NUTS": "CZ0205",
+   "NAZEVNUTS": "Kutná Hora",
+   "KODCIS": 101,
+   "CHODNOTA": 40207
+ },
+ {
+   "NUMNUTS": 2106,
+   "NUTS": "CZ0206",
+   "NAZEVNUTS": "Mělník",
+   "KODCIS": 101,
+   "CHODNOTA": 40215
+ },
+ {
+   "NUMNUTS": 2107,
+   "NUTS": "CZ0207",
+   "NAZEVNUTS": "Mladá Boleslav",
+   "KODCIS": 101,
+   "CHODNOTA": 40223
+ },
+ {
+   "NUMNUTS": 2108,
+   "NUTS": "CZ0208",
+   "NAZEVNUTS": "Nymburk",
+   "KODCIS": 101,
+   "CHODNOTA": 40231
+ },
+ {
+   "NUMNUTS": 2109,
+   "NUTS": "CZ0209",
+   "NAZEVNUTS": "Praha-východ",
+   "KODCIS": 101,
+   "CHODNOTA": 40240
+ },
+ {
+   "NUMNUTS": 2110,
+   "NUTS": "CZ020A",
+   "NAZEVNUTS": "Praha-západ",
+   "KODCIS": 101,
+   "CHODNOTA": 40258
+ },
+ {
+   "NUMNUTS": 2111,
+   "NUTS": "CZ020B",
+   "NAZEVNUTS": "Příbram",
+   "KODCIS": 101,
+   "CHODNOTA": 40266
+ },
+ {
+   "NUMNUTS": 2112,
+   "NUTS": "CZ020C",
+   "NAZEVNUTS": "Rakovník",
+   "KODCIS": 101,
+   "CHODNOTA": 40274
+ },
+ {
+   "NUMNUTS": 3000,
+   "NUTS": "CZ03",
+   "NAZEVNUTS": "Jihozápad",
+   "KODCIS": 99,
+   "CHODNOTA": 230
+ },
+ {
+   "NUMNUTS": 3100,
+   "NUTS": "CZ031",
+   "NAZEVNUTS": "Jihočeský kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3034
+ },
+ {
+   "NUMNUTS": 3101,
+   "NUTS": "CZ0311",
+   "NAZEVNUTS": "České Budějovice",
+   "KODCIS": 101,
+   "CHODNOTA": 40282
+ },
+ {
+   "NUMNUTS": 3102,
+   "NUTS": "CZ0312",
+   "NAZEVNUTS": "Český Krumlov",
+   "KODCIS": 101,
+   "CHODNOTA": 40291
+ },
+ {
+   "NUMNUTS": 3103,
+   "NUTS": "CZ0313",
+   "NAZEVNUTS": "Jindřichův Hradec",
+   "KODCIS": 101,
+   "CHODNOTA": 40304
+ },
+ {
+   "NUMNUTS": 3104,
+   "NUTS": "CZ0314",
+   "NAZEVNUTS": "Písek",
+   "KODCIS": 101,
+   "CHODNOTA": 40312
+ },
+ {
+   "NUMNUTS": 3105,
+   "NUTS": "CZ0315",
+   "NAZEVNUTS": "Prachatice",
+   "KODCIS": 101,
+   "CHODNOTA": 40321
+ },
+ {
+   "NUMNUTS": 3106,
+   "NUTS": "CZ0316",
+   "NAZEVNUTS": "Strakonice",
+   "KODCIS": 101,
+   "CHODNOTA": 40339
+ },
+ {
+   "NUMNUTS": 3107,
+   "NUTS": "CZ0317",
+   "NAZEVNUTS": "Tábor",
+   "KODCIS": 101,
+   "CHODNOTA": 40347
+ },
+ {
+   "NUMNUTS": 3200,
+   "NUTS": "CZ032",
+   "NAZEVNUTS": "Plzeňský kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3042
+ },
+ {
+   "NUMNUTS": 3201,
+   "NUTS": "CZ0321",
+   "NAZEVNUTS": "Domažlice",
+   "KODCIS": 101,
+   "CHODNOTA": 40355
+ },
+ {
+   "NUMNUTS": 3202,
+   "NUTS": "CZ0322",
+   "NAZEVNUTS": "Klatovy",
+   "KODCIS": 101,
+   "CHODNOTA": 40363
+ },
+ {
+   "NUMNUTS": 3203,
+   "NUTS": "CZ0323",
+   "NAZEVNUTS": "Plzeň-město",
+   "KODCIS": 101,
+   "CHODNOTA": 40371
+ },
+ {
+   "NUMNUTS": 3204,
+   "NUTS": "CZ0324",
+   "NAZEVNUTS": "Plzeň-jih",
+   "KODCIS": 101,
+   "CHODNOTA": 40380
+ },
+ {
+   "NUMNUTS": 3205,
+   "NUTS": "CZ0325",
+   "NAZEVNUTS": "Plzeň-sever",
+   "KODCIS": 101,
+   "CHODNOTA": 40398
+ },
+ {
+   "NUMNUTS": 3206,
+   "NUTS": "CZ0326",
+   "NAZEVNUTS": "Rokycany",
+   "KODCIS": 101,
+   "CHODNOTA": 40401
+ },
+ {
+   "NUMNUTS": 3207,
+   "NUTS": "CZ0327",
+   "NAZEVNUTS": "Tachov",
+   "KODCIS": 101,
+   "CHODNOTA": 40410
+ },
+ {
+   "NUMNUTS": 4000,
+   "NUTS": "CZ04",
+   "NAZEVNUTS": "Severozápad",
+   "KODCIS": 99,
+   "CHODNOTA": 248
+ },
+ {
+   "NUMNUTS": 4100,
+   "NUTS": "CZ041",
+   "NAZEVNUTS": "Karlovarský kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3051
+ },
+ {
+   "NUMNUTS": 4101,
+   "NUTS": "CZ0411",
+   "NAZEVNUTS": "Cheb",
+   "KODCIS": 101,
+   "CHODNOTA": 40428
+ },
+ {
+   "NUMNUTS": 4102,
+   "NUTS": "CZ0412",
+   "NAZEVNUTS": "Karlovy Vary",
+   "KODCIS": 101,
+   "CHODNOTA": 40436
+ },
+ {
+   "NUMNUTS": 4103,
+   "NUTS": "CZ0413",
+   "NAZEVNUTS": "Sokolov",
+   "KODCIS": 101,
+   "CHODNOTA": 40444
+ },
+ {
+   "NUMNUTS": 4200,
+   "NUTS": "CZ042",
+   "NAZEVNUTS": "Ústecký kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3069
+ },
+ {
+   "NUMNUTS": 4201,
+   "NUTS": "CZ0421",
+   "NAZEVNUTS": "Děčín",
+   "KODCIS": 101,
+   "CHODNOTA": 40452
+ },
+ {
+   "NUMNUTS": 4202,
+   "NUTS": "CZ0422",
+   "NAZEVNUTS": "Chomutov",
+   "KODCIS": 101,
+   "CHODNOTA": 40461
+ },
+ {
+   "NUMNUTS": 4203,
+   "NUTS": "CZ0423",
+   "NAZEVNUTS": "Litoměřice",
+   "KODCIS": 101,
+   "CHODNOTA": 40479
+ },
+ {
+   "NUMNUTS": 4204,
+   "NUTS": "CZ0424",
+   "NAZEVNUTS": "Louny",
+   "KODCIS": 101,
+   "CHODNOTA": 40487
+ },
+ {
+   "NUMNUTS": 4205,
+   "NUTS": "CZ0425",
+   "NAZEVNUTS": "Most",
+   "KODCIS": 101,
+   "CHODNOTA": 40495
+ },
+ {
+   "NUMNUTS": 4206,
+   "NUTS": "CZ0426",
+   "NAZEVNUTS": "Teplice",
+   "KODCIS": 101,
+   "CHODNOTA": 40509
+ },
+ {
+   "NUMNUTS": 4207,
+   "NUTS": "CZ0427",
+   "NAZEVNUTS": "Ústí nad Labem",
+   "KODCIS": 101,
+   "CHODNOTA": 40517
+ },
+ {
+   "NUMNUTS": 5000,
+   "NUTS": "CZ05",
+   "NAZEVNUTS": "Severovýchod",
+   "KODCIS": 99,
+   "CHODNOTA": 256
+ },
+ {
+   "NUMNUTS": 5100,
+   "NUTS": "CZ051",
+   "NAZEVNUTS": "Liberecký kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3077
+ },
+ {
+   "NUMNUTS": 5101,
+   "NUTS": "CZ0511",
+   "NAZEVNUTS": "Česká Lípa",
+   "KODCIS": 101,
+   "CHODNOTA": 40525
+ },
+ {
+   "NUMNUTS": 5102,
+   "NUTS": "CZ0512",
+   "NAZEVNUTS": "Jablonec nad Nisou",
+   "KODCIS": 101,
+   "CHODNOTA": 40533
+ },
+ {
+   "NUMNUTS": 5103,
+   "NUTS": "CZ0513",
+   "NAZEVNUTS": "Liberec",
+   "KODCIS": 101,
+   "CHODNOTA": 40541
+ },
+ {
+   "NUMNUTS": 5104,
+   "NUTS": "CZ0514",
+   "NAZEVNUTS": "Semily",
+   "KODCIS": 101,
+   "CHODNOTA": 40550
+ },
+ {
+   "NUMNUTS": 5200,
+   "NUTS": "CZ052",
+   "NAZEVNUTS": "Královéhradecký kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3085
+ },
+ {
+   "NUMNUTS": 5201,
+   "NUTS": "CZ0521",
+   "NAZEVNUTS": "Hradec Králové",
+   "KODCIS": 101,
+   "CHODNOTA": 40568
+ },
+ {
+   "NUMNUTS": 5202,
+   "NUTS": "CZ0522",
+   "NAZEVNUTS": "Jičín",
+   "KODCIS": 101,
+   "CHODNOTA": 40576
+ },
+ {
+   "NUMNUTS": 5203,
+   "NUTS": "CZ0523",
+   "NAZEVNUTS": "Náchod",
+   "KODCIS": 101,
+   "CHODNOTA": 40584
+ },
+ {
+   "NUMNUTS": 5204,
+   "NUTS": "CZ0524",
+   "NAZEVNUTS": "Rychnov nad Kněžnou",
+   "KODCIS": 101,
+   "CHODNOTA": 40592
+ },
+ {
+   "NUMNUTS": 5205,
+   "NUTS": "CZ0525",
+   "NAZEVNUTS": "Trutnov",
+   "KODCIS": 101,
+   "CHODNOTA": 40606
+ },
+ {
+   "NUMNUTS": 5300,
+   "NUTS": "CZ053",
+   "NAZEVNUTS": "Pardubický kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3093
+ },
+ {
+   "NUMNUTS": 5301,
+   "NUTS": "CZ0531",
+   "NAZEVNUTS": "Chrudim",
+   "KODCIS": 101,
+   "CHODNOTA": 40614
+ },
+ {
+   "NUMNUTS": 5302,
+   "NUTS": "CZ0532",
+   "NAZEVNUTS": "Pardubice",
+   "KODCIS": 101,
+   "CHODNOTA": 40622
+ },
+ {
+   "NUMNUTS": 5303,
+   "NUTS": "CZ0533",
+   "NAZEVNUTS": "Svitavy",
+   "KODCIS": 101,
+   "CHODNOTA": 40631
+ },
+ {
+   "NUMNUTS": 5304,
+   "NUTS": "CZ0534",
+   "NAZEVNUTS": "Ústí nad Orlicí",
+   "KODCIS": 101,
+   "CHODNOTA": 40649
+ },
+ {
+   "NUMNUTS": 6000,
+   "NUTS": "CZ06",
+   "NAZEVNUTS": "Jihovýchod",
+   "KODCIS": 99,
+   "CHODNOTA": 264
+ },
+ {
+   "NUMNUTS": 6100,
+   "NUTS": "CZ063",
+   "NAZEVNUTS": "Kraj Vysočina",
+   "KODCIS": 100,
+   "CHODNOTA": 3107
+ },
+ {
+   "NUMNUTS": 6101,
+   "NUTS": "CZ0631",
+   "NAZEVNUTS": "Havlíčkův Brod",
+   "KODCIS": 101,
+   "CHODNOTA": 40657
+ },
+ {
+   "NUMNUTS": 6102,
+   "NUTS": "CZ0632",
+   "NAZEVNUTS": "Jihlava",
+   "KODCIS": 101,
+   "CHODNOTA": 40665
+ },
+ {
+   "NUMNUTS": 6103,
+   "NUTS": "CZ0633",
+   "NAZEVNUTS": "Pelhřimov",
+   "KODCIS": 101,
+   "CHODNOTA": 40673
+ },
+ {
+   "NUMNUTS": 6104,
+   "NUTS": "CZ0634",
+   "NAZEVNUTS": "Třebíč",
+   "KODCIS": 101,
+   "CHODNOTA": 40681
+ },
+ {
+   "NUMNUTS": 6105,
+   "NUTS": "CZ0635",
+   "NAZEVNUTS": "Žďár nad Sázavou",
+   "KODCIS": 101,
+   "CHODNOTA": 40690
+ },
+ {
+   "NUMNUTS": 6200,
+   "NUTS": "CZ064",
+   "NAZEVNUTS": "Jihomoravský kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3115
+ },
+ {
+   "NUMNUTS": 6201,
+   "NUTS": "CZ0641",
+   "NAZEVNUTS": "Blansko",
+   "KODCIS": 101,
+   "CHODNOTA": 40703
+ },
+ {
+   "NUMNUTS": 6202,
+   "NUTS": "CZ0642",
+   "NAZEVNUTS": "Brno-město",
+   "KODCIS": 101,
+   "CHODNOTA": 40711
+ },
+ {
+   "NUMNUTS": 6203,
+   "NUTS": "CZ0643",
+   "NAZEVNUTS": "Brno-venkov",
+   "KODCIS": 101,
+   "CHODNOTA": 40720
+ },
+ {
+   "NUMNUTS": 6204,
+   "NUTS": "CZ0644",
+   "NAZEVNUTS": "Břeclav",
+   "KODCIS": 101,
+   "CHODNOTA": 40738
+ },
+ {
+   "NUMNUTS": 6205,
+   "NUTS": "CZ0645",
+   "NAZEVNUTS": "Hodonín",
+   "KODCIS": 101,
+   "CHODNOTA": 40746
+ },
+ {
+   "NUMNUTS": 6206,
+   "NUTS": "CZ0646",
+   "NAZEVNUTS": "Vyškov",
+   "KODCIS": 101,
+   "CHODNOTA": 40754
+ },
+ {
+   "NUMNUTS": 6207,
+   "NUTS": "CZ0647",
+   "NAZEVNUTS": "Znojmo",
+   "KODCIS": 101,
+   "CHODNOTA": 40762
+ },
+ {
+   "NUMNUTS": 7000,
+   "NUTS": "CZ07",
+   "NAZEVNUTS": "Střední Morava",
+   "KODCIS": 99,
+   "CHODNOTA": 272
+ },
+ {
+   "NUMNUTS": 7100,
+   "NUTS": "CZ071",
+   "NAZEVNUTS": "Olomoucký kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3123
+ },
+ {
+   "NUMNUTS": 7101,
+   "NUTS": "CZ0711",
+   "NAZEVNUTS": "Jeseník",
+   "KODCIS": 101,
+   "CHODNOTA": 40771
+ },
+ {
+   "NUMNUTS": 7102,
+   "NUTS": "CZ0712",
+   "NAZEVNUTS": "Olomouc",
+   "KODCIS": 101,
+   "CHODNOTA": 40789
+ },
+ {
+   "NUMNUTS": 7103,
+   "NUTS": "CZ0713",
+   "NAZEVNUTS": "Prostějov",
+   "KODCIS": 101,
+   "CHODNOTA": 40797
+ },
+ {
+   "NUMNUTS": 7104,
+   "NUTS": "CZ0714",
+   "NAZEVNUTS": "Přerov",
+   "KODCIS": 101,
+   "CHODNOTA": 40801
+ },
+ {
+   "NUMNUTS": 7105,
+   "NUTS": "CZ0715",
+   "NAZEVNUTS": "Šumperk",
+   "KODCIS": 101,
+   "CHODNOTA": 40819
+ },
+ {
+   "NUMNUTS": 7200,
+   "NUTS": "CZ072",
+   "NAZEVNUTS": "Zlínský kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3131
+ },
+ {
+   "NUMNUTS": 7201,
+   "NUTS": "CZ0721",
+   "NAZEVNUTS": "Kroměříž",
+   "KODCIS": 101,
+   "CHODNOTA": 40827
+ },
+ {
+   "NUMNUTS": 7202,
+   "NUTS": "CZ0722",
+   "NAZEVNUTS": "Uherské Hradiště",
+   "KODCIS": 101,
+   "CHODNOTA": 40835
+ },
+ {
+   "NUMNUTS": 7203,
+   "NUTS": "CZ0723",
+   "NAZEVNUTS": "Vsetín",
+   "KODCIS": 101,
+   "CHODNOTA": 40843
+ },
+ {
+   "NUMNUTS": 7204,
+   "NUTS": "CZ0724",
+   "NAZEVNUTS": "Zlín",
+   "KODCIS": 101,
+   "CHODNOTA": 40851
+ },
+ {
+   "NUMNUTS": 8000,
+   "NUTS": "CZ08",
+   "NAZEVNUTS": "Moravskoslezsko",
+   "KODCIS": 99,
+   "CHODNOTA": 281
+ },
+ {
+   "NUMNUTS": 8100,
+   "NUTS": "CZ080",
+   "NAZEVNUTS": "Moravskoslezský kraj",
+   "KODCIS": 100,
+   "CHODNOTA": 3140
+ },
+ {
+   "NUMNUTS": 8101,
+   "NUTS": "CZ0801",
+   "NAZEVNUTS": "Bruntál",
+   "KODCIS": 101,
+   "CHODNOTA": 40860
+ },
+ {
+   "NUMNUTS": 8102,
+   "NUTS": "CZ0802",
+   "NAZEVNUTS": "Frýdek-Místek",
+   "KODCIS": 101,
+   "CHODNOTA": 40878
+ },
+ {
+   "NUMNUTS": 8103,
+   "NUTS": "CZ0803",
+   "NAZEVNUTS": "Karviná",
+   "KODCIS": 101,
+   "CHODNOTA": 40886
+ },
+ {
+   "NUMNUTS": 8104,
+   "NUTS": "CZ0804",
+   "NAZEVNUTS": "Nový Jičín",
+   "KODCIS": 101,
+   "CHODNOTA": 40894
+ },
+ {
+   "NUMNUTS": 8105,
+   "NUTS": "CZ0805",
+   "NAZEVNUTS": "Opava",
+   "KODCIS": 101,
+   "CHODNOTA": 40908
+ },
+ {
+   "NUMNUTS": 8106,
+   "NUTS": "CZ0806",
+   "NAZEVNUTS": "Ostrava-město",
+   "KODCIS": 101,
+   "CHODNOTA": 40916
+ },
+ {
+   "NUMNUTS": 9999,
+   "NUTS": "CZZZZZ",
+   "NAZEVNUTS": "Zahraničí",
+   "KODCIS": 101,
+   "CHODNOTA": 40002
+ }
+]

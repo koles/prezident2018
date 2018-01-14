@@ -1,0 +1,28 @@
+body {
+  margin: 1em;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+div {
+  margin-bottom: 0.5em
+}
+
+span.candidate {
+  margin-right: 0.5em;
+}
+
+.candidate.checked-false {
+  color: #640000
+}
+
+.candidate.checked-true {
+  color: #006400
+}

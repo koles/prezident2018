@@ -1,0 +1,137 @@
+import React, { Component } from 'react';
+import { MapChoropleth } from 'react-d3-map-choropleth'
+import d3 from 'd3'
+
+import geo from './data/cesko'
+import districts from './data/okrsky'
+import rawResults from './data/vysledky'
+
+const style = {
+  fillColor: '#F28F3B',
+  weight: 2,
+  opacity: 1,
+  color: 'gray',
+  dashArray: '3',
+  fillOpacity: 0.5
+}
+
+const domain = {
+  scale: 'quantize',
+  domain: [0, .15],
+  range: d3.range(9).map(function(i) { return "q" + i + "-9"; })
+};
+
+const transformResults = (rawResults) => {
+  return rawResults.data.map((row) => {
+    const obj = {}
+    rawResults.fields.forEach((value, index) => {
+      obj[value] = row[index]
+    })
+    return obj
+  })
+}
+
+const candidates = {
+  HLASY_01: 'Mirek Topolánek',
+  HLASY_02: 'Michal Horáček',
+  HLASY_03: 'Pavel Fischer',
+  HLASY_04: 'Jiří Hynek',
+  HLASY_05: 'Petr Hannig',
+  HLASY_06: 'Vratislav Kulhánek',
+  HLASY_07: 'Miloš Zeman',
+  HLASY_08: 'Marek Hilšer',
+  HLASY_09: 'Jiří Drahoš'
+}
+
+const byDistrictNumnuts = (transformed) => {
+  const aggregated = {}
+  transformed.forEach((row) => {
+    const existing = aggregated[row.OKRES]
+    if (!existing) {
+      aggregated[row.OKRES] = {}
+      Object.keys(candidates).forEach((votesColumn) => {
+        aggregated[row.OKRES][votesColumn] = 0
+      })
+    }
+    Object.keys(candidates).forEach((votesColumn) => {
+      aggregated[row.OKRES][votesColumn] += row[votesColumn]
+    })
+  })
+  return aggregated
+}
+
+const byNumnutsToNutsArray = (aggregated, districts) => {
+  const districtsHash = {}
+  districts.forEach((d) => { districtsHash[d.NUMNUTS] = d })
+  return Object.keys(aggregated).map((numnuts) => {
+    const result = aggregated[numnuts]
+    const district = districtsHash[numnuts]
+    return {
+      ...result,
+      ...district
+    }
+  })
+}
+
+const results = byNumnutsToNutsArray(
+  byDistrictNumnuts(
+    transformResults(rawResults)
+  ),
+  districts
+)
+
+const center = [17.94864435459224, 49.78767958315368]
+
+class App extends Component {
+
+  render() {
+    console.log('geo', geo)
+    console.log('districts[0]', districts[7])
+    console.log('results[0]', results[5])
+
+    const width = 960
+    const height = 600
+
+    return (
+      <MapChoropleth
+        width= {width}
+        height= {height}
+        dataPolygon={geo.features}
+        dataMesh={geo.features}
+        scale= {1280}
+        domain= {domain}
+        domainData= {results}
+        domainValue= {(d) => d.HLASY_07 }
+        domainKey= {(d) => d.NUTS }
+        mapKey = {(d) => { console.log('mapKey', d); return d.LAU1_KOD}}
+        translate= {[width / 2, height / 2]}
+        projection='albersUsa'
+        showGraticule= {true}
+    />
+    )    
+
+/*
+    const a =  <div>
+        <Map center={center} zoom={5}>
+          <TileLayer url='http://{s}.tile.osm.org/{z}/{x}/{y}.png' attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' />
+          <Choropleth
+            data={geo}
+            valueProperty={(feature) => feature.properties.nezamestnanost}
+            scale={['#b3cde0', '#011f4b']}
+            steps={7}
+            mode='e'
+            visible={() => true}
+            style={style}
+            onEachFeature={(feature, layer) => {
+              console.log('onEachFeature(feature, layer)', feature, layer)
+              return layer.bindPopup(feature.properties.label)
+            }}
+            ref={(el) => this.choropleth = el.leafletElement}
+          />
+        </Map>
+      </div>
+      */
+  }
+}
+
+export default App;
