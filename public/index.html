@@ -2,9 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="theme-color" content="#000000">
     <meta property="og:image" content="%PUBLIC_URL%/nahled.png">
+    <meta property="og:description"   content="Interaktivní mapa výsledků prvního kola prezidenských voleb po jednotlivých okresech" />
+
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
@@ -22,6 +24,14 @@
     <title>Pořád ještě není tak zle</title>
   </head>
   <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.11';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
@@ -46,5 +56,6 @@
       gtag('config', 'UA-116829-5');
     </script>
     <a href="https://github.com/koles/prezident2018"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
+    <div class="fb-share-button" data-href="http://ico.okoun.cz/hmmm/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fico.okoun.cz%2Fhmmm%2F&amp;src=sdkpreparse">Share</a></div>
   </body>
 </html>

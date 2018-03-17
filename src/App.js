@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Choropleth from 'react-leaflet-choropleth'
-import { Map, GeoJSON, TileLayer } from 'react-leaflet'
+import { Map, GeoJSON } from 'react-leaflet'
 import geojsonBounds from 'geojson-bounds'
 
 import geo from './data/cesko'
@@ -172,14 +171,9 @@ class App extends Component {
     this.setState(this.allFalse())
   }
 
-  render() {
-    const preferred = Object.keys(candidates).filter(votesColumn => this.state[votesColumn])
+  renderCandidates() {
     return (
       <div>
-        <h1>Pořád ještě není tak zle</h1>
-        <ElectionsMap preferred={preferred} />
-        <div><b>Kdo vám přijde přijatelný?</b></div>
-        <div>
         {
           Object.keys(candidates).sort().map(votesColumn => (
             <span className={"candidate checked-" + (this.state[votesColumn] || false)} key={votesColumn}>
@@ -188,8 +182,17 @@ class App extends Component {
             </span>
           ))
         }
-        </div>
-        
+      </div>
+    )
+  }
+
+  render() {
+    const preferred = Object.keys(candidates).filter(votesColumn => this.state[votesColumn])
+    return (
+      <div>
+        <h1><strike>Pořád ještě není tak zle</strike> Výsledky prvního kola</h1>
+        <div><b>Kdo vám přijde přijatelný?</b></div>
+        {this.renderCandidates(candidates)}
         <div>
           Kombinace:
           <button onClick={() => this.checkMulti(['HLASY_02', 'HLASY_03', 'HLASY_08', 'HLASY_09'])}>Horáček, Fischer, Hilšer nebo Drahoš</button> 
@@ -198,6 +201,7 @@ class App extends Component {
         <div>
           <button onClick={this.uncheckAll.bind(this)}>Zrušit výběr</button>
         </div>
+        <ElectionsMap preferred={preferred} />
       </div>
     )
   }
